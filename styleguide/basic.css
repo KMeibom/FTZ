@@ -14,7 +14,8 @@ html body {
 
 section{
 min-height: 100%;
-padding-top: 160px;
+	padding:2% 0;
+	min-width: 30%;
 }
 
 a{
@@ -331,36 +332,62 @@ button{
 
 }
 
-#Forms{
-	margin-top: 110px;
-	padding:5%;
+.wrapper-form{
+	background-image: linear-gradient(rgb(46, 84, 137), rgba(73, 107, 186, 0.26), rgba(124, 163, 216, 0.76));
+	background-color: #0B3063;
+	display:flex;
+	margin-top:10%;
+	height:100%;
+	width:27%;
 }
 
+::placeholder {
+  color: #EDEDED;
+  opacity: 1;
+}
 .input{
   display: flex;
   flex-direction: column;
-  min-height: 50px;
-  width: 27%;
-  margin-top: -30px;
-	padding:5% 36%;
+  width: 100%;
+align-content: center;
+	justify-content: center;
+	align-items: center;
+	border:none;
+}
+
+input:focus, textarea:focus {
+	outline: none;
+}
+
+input, select, textarea{
+    color: #FFFFFF;
+	
 }
 
 input{
-  width: 93%;
-  background-color: #2E5999;
-  border: 1px solid #4587E1;
-  color: #EDEDED;
   font-family: 'Open Sans', sans-serif;
   font-size: 15px;
   font-weight: 400;
-  padding-top: 8px;
-  padding-bottom: 8px;
-  padding-left: 20px;
-  margin-bottom: 25px;
-  border-radius: 30px;
-  -webkit-box-shadow: 4px 2px 5px 0px rgba(0,0,0,0.16);
-  -moz-box-shadow: 4px 2px 5px 0px rgba(0,0,0,0.16);
-  box-shadow: 4px 2px 5px 0px rgba(0,0,0,0.16);
+  padding-right: 30px;
+display:flex;
+	  margin-bottom: 25px;
+border:none;
+	background-color:transparent;
+
+}
+
+.mail{
+	border-bottom: 1.2px solid #FFFFFF;
+}
+
+
+.kode{
+	border-bottom: 1.2px solid #FFFFFF;
+
+}
+
+.kode2{
+	border-bottom: 1.2px solid #FFFFFF;
 
 }
 
