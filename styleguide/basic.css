@@ -293,7 +293,6 @@ button{
   height: 32px;
   position: absolute;
   width: 8%;
-
 }
 
 .button-edit{
@@ -382,7 +381,7 @@ input:focus, textarea:focus {
 
 input, select, textarea{
     color: #FFFFFF;
-	
+
 }
 
 input{

@@ -19,9 +19,7 @@ main{
   flex-direction: column;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 5%;
-  min-height: 92vh;
-  width: 85%;
+  min-height: 100vh;
 	align-items: center;
   background-image: linear-gradient(rgb(46, 84, 137), rgba(73, 107, 186, 0.26), rgba(124, 163, 216, 0.76));
   background-color: #0B3063;
@@ -32,7 +30,10 @@ main{
 
 .overskrift h1 {
 
-  margin-top: 70px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  font-size: 47px;
+  font-weight: 550;
 }
 
 h2{
@@ -42,20 +43,26 @@ h2{
 
 
 .logoopret{
-	margin-top: 100px;
+	margin-top: 90px;
+}
+
+.member{
+  color: #4587E1;
+  margin-top: -10px;
+  font-size: 12px;
 }
 
 
 
 ::placeholder {
   color: #EDEDED;
-  opacity: 1;
+  opacity: 75%;
 }
 .input{
   display: flex;
   flex-direction: column;
   width: 100%;
-align-content: center;
+  align-content: center;
 	justify-content: center;
 	align-items: center;
 	border:none;
@@ -66,7 +73,7 @@ input:focus, textarea:focus {
 }
 
 input, select, textarea{
-    color: #FFFFFF;
+  color: #FFFFFF;
 }
 
 input{
@@ -81,14 +88,31 @@ input{
 }
 
 .mail{
-	border-bottom: 1.2px solid #FFFFFF;
+	border-bottom: 1px solid #FFFFFF;
 }
 
 
 .kode{
-	border-bottom: 1.2px solid #FFFFFF;
+	border-bottom: 1px solid #FFFFFF;
 }
 
 .kode2{
-	border-bottom: 1.2px solid #FFFFFF;
+	border-bottom: 1px solid #FFFFFF;
+}
+
+button{
+  color:  #204480;
+  font-size: 15px;
+  font-family: 'Open Sans', sans-serif;
+  background-color: #A9D7BB;
+  border-color: #82b5be;
+  border-style: solid;
+  border-width: thin;
+  border-radius: 28px;
+  radius: 50%;
+  height: 32px;
+  position: absolute;
+  width: 18%;
+  margin-top: 70px;
+  margin-left: -50px;
 }
