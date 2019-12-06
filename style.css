@@ -36,9 +36,8 @@ main{
   font-weight: 550;
 }
 
-h2{
-
-
+a{
+  text-decoration: none;
 }
 
 
@@ -85,6 +84,8 @@ input{
 	margin-bottom: 25px;
   border: none;
 	background-color:transparent;
+  width: 100%;
+  align-items: center;
 }
 
 .mail{
