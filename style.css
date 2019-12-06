@@ -17,14 +17,17 @@ body{
 main{
   display: flex;
   flex-direction: column;
-	background-color: red;
   margin-left: auto;
   margin-right: auto;
   margin-top: 5%;
   min-height: 92vh;
   width: 85%;
 	align-items: center;
+  background-image: linear-gradient(rgb(46, 84, 137), rgba(73, 107, 186, 0.26), rgba(124, 163, 216, 0.76));
+  background-color: #0B3063;
+  display: flex;
 }
+
 /* headings */
 
 .overskrift h1 {
@@ -39,6 +42,53 @@ h2{
 
 
 .logoopret{
-
 	margin-top: 100px;
+}
+
+
+
+::placeholder {
+  color: #EDEDED;
+  opacity: 1;
+}
+.input{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+align-content: center;
+	justify-content: center;
+	align-items: center;
+	border:none;
+}
+
+input:focus, textarea:focus {
+	outline: none;
+}
+
+input, select, textarea{
+    color: #FFFFFF;
+}
+
+input{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  padding-right: 30px;
+  display: flex;
+	margin-bottom: 25px;
+  border: none;
+	background-color:transparent;
+}
+
+.mail{
+	border-bottom: 1.2px solid #FFFFFF;
+}
+
+
+.kode{
+	border-bottom: 1.2px solid #FFFFFF;
+}
+
+.kode2{
+	border-bottom: 1.2px solid #FFFFFF;
 }
