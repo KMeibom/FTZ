@@ -64,7 +64,7 @@ h4 {
 
 header{
 
-background-color: #31525C;
+background-color: #113666;
 width: 100%;
 height: 75px;
 position: fixed;
@@ -105,7 +105,14 @@ padding-top: 2px;
     justify-content: center;
     justify-content: space-between;
     padding-top: 110px;
+}
 
+.wrapper2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-between;
+    padding-top: 110px;
 }
 
   .box1{
@@ -133,12 +140,13 @@ padding-top: 2px;
   }
 
   .box5{
-      background-color: #37F7B5; //
+      background-color: #37F7B5;
       height: 100px;
       width: 100px;
   }
   .box6{
-      background-image: linear-gradient(#2E5489, #3F71B5);
+	  background-color:#0B3063;
+      background-image: linear-gradient(rgba(46, 84, 137, 1), rgba(73, 107, 186, 0.26), rgba(63, 113, 181, 0.76));
       height: 100px;
       width: 100px;
   }
@@ -161,36 +169,20 @@ padding-top: 2px;
 .wrappertext{
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
+  padding-top: 10px;
+  letter-spacing: 1px;
+	align-items: center;
+}
+
+.wrappertext2{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
   padding-top: 10px;
   letter-spacing: 1px;
 }
 
-.hex1{
-margin-left: -27px;
-
-
-}
-.hex2{
-margin-left: 14px;
-
-}
-.hex3{
-margin-left: 13px;
-}
-
-.hex4{
-margin-left: 5px;
-}
-
-.hex5{
-margin-left: 10px;
-}
-
-.hex8{
-padding-right: 7px;
-
-}
 
 
 #Logo img{
@@ -261,14 +253,14 @@ padding-right: 7px;
   justify-content: center;
   align-items: center;
   margin-top: 110px;
-
+	padding:5%;
 }
 
 button{
-  color:  #000;
+  color:  #204480;
   font-size: 15px;
-  font-family: 'Montserrat', sans-serif;
-  background-color: #82B5BE;
+  font-family: 'Open Sans', sans-serif;
+  background-color: #A9D7BB;
   border-color: #82b5be;
   border-style: solid;
   border-width: thin;
@@ -295,20 +287,42 @@ button{
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background-color:#E6B81C;
+  background-color:#A9D7BB;
   padding: 5px;
-  width: 5.5%;
-  color: #fff;
+  width: 151px;
+  color: #204480;
   border-radius: 30px;
 
 }
 
-#links{
+.button-add{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  width: 100%;
+	padding:8% 0;
+}
+
+.button-add button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color:#A9D7BB;
+  width: 274px;
+	height:81px;
+  color: #204480;
+  border-radius: 30px;
+	font-size: 60px;
+
 }
 
 .member{
   font-size: 14px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   color: #82B5BE;
   display: flex;
   justify-content: center;
@@ -317,8 +331,9 @@ button{
 
 }
 
-#forms{
-
+#Forms{
+	margin-top: 110px;
+	padding:5%;
 }
 
 .input{
@@ -327,80 +342,27 @@ button{
   min-height: 50px;
   width: 27%;
   margin-top: -30px;
-  margin-left: 57px;
-
-
+	padding:5% 36%;
 }
 
 input{
   width: 93%;
-  background-color: #363636;
-  border: 1px solid #848484;
+  background-color: #2E5999;
+  border: 1px solid #4587E1;
   color: #EDEDED;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 15px;
   font-weight: 400;
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 20px;
   margin-bottom: 25px;
-  margin-left: 370px;
   border-radius: 30px;
   -webkit-box-shadow: 4px 2px 5px 0px rgba(0,0,0,0.16);
   -moz-box-shadow: 4px 2px 5px 0px rgba(0,0,0,0.16);
   box-shadow: 4px 2px 5px 0px rgba(0,0,0,0.16);
 
 }
-
-
-
-.swipe input[type="range"] {
-    width: 280px;
-    height: 40px;
-    background: -webkit-gradient(linear, 0 0, 0 bottom, from(#82B5BE), to(#6B9FAF));
-    -webkit-appearance: none;
-    border-radius: 32px;
-    padding: 3px;
-    transition: opacity 0.5s;
-    position: relative;
-    margin-left: 13px;
-    border-color: #272727;
-    margin-top: 70px;
-
-}
-
-.swipe input[type="range"]::-webkit-slider-thumb {
-    -webkit-appearance: none;
-    border-radius: 32px;
-    background: -webkit-linear-gradient(top, #ededed 0%,#fff 50%,#fff 51%,#ededed 100%);
-    z-index: 1;
-    width: 40px;
-    position: relative;
-    height: 40px;
-}
-
-.swipe input[type="range"]:before {
-    content: "Share key";
-    color: #272727;
-    position: absolute;
-    left: 100px;
-    top: 11px;
-    z-index: 1;
-    font-size: 21px;
-}
-
-.swipe input[type="range"]::-webkit-slider-thumb:before {
-    color: #8a8a8a;
-    position: absolute;
-    left: 5px;
-    top: -10px;
-    z-index: 1;
-    font-size: 56px;
-    font-weight: bold;
-    content: "→";
-}
-
-
 
 footer
 {
