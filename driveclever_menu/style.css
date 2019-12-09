@@ -29,6 +29,7 @@ main{
 .burger{
 	display:none;
 	cursor:pointer;
+	width:20px;
 }
 
 .burger div:hover{
@@ -72,8 +73,13 @@ main{
 }
 
 h1{
-  font-size: 20px;
-  font-weight: 500;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+h2{
+	font-size:20px;
+	font-weight:600;
 }
 
 .linjer{
@@ -88,7 +94,7 @@ h1{
 	justify-content:space-between;
 	align-items:center;*/
 	min-height:8vh;
-	font-family:'Montserrat', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 }
 
 	.nav-links	{
@@ -126,12 +132,15 @@ h1{
 	}*/
 
   .indryk{
-    padding-bottom: 5px;
-    margin-bottom: 20px;
+   
     border-bottom: solid 1px #a2b2c9;
     width: 100%;
+	  font-size:20px;
   }
-
+	.indryk a {
+		text-decoration: none;
+		color: #FFFFFF;
+	}
 
 	/*end of media screen 1921*/
 }
@@ -228,3 +237,4 @@ ul.nav-links.nav-active{
 }
 
 /*navigation færdig*/
+}
