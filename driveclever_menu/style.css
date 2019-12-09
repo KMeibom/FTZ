@@ -236,5 +236,20 @@ ul.nav-links.nav-active{
 	transform:rotate(45deg) translate(-4px,-6px);
 }
 
+	
+.search {
+		display:flex;
+	justify-content:center;
+	margin-top:0%;
+	width: 90%;
+	}
+	
+
+	
+.searchicon{
+		
+	}	
+	
+	
 /*navigation færdig*/
 }
