@@ -53,12 +53,12 @@ function checkmember() {
 
 	var memberlist[];
 	var i = 0;
+	var found = false;
 	var brugerinput = document.getElementsByClassName("mail").value
 	memberlist[0] = "c.hoepner@hotmail.com";
 	memberlist[1] = "kaspermeibom@hotmail.com";
 	memberlist[2] = "avibavi@line.com";
-s
-	boolean found = false;
+
 	for (int i = 0; i < memberlist.length; i++) {
 	    if (memberlist[i].equals(brugerinput)) {
 	        found = true;
