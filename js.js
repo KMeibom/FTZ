@@ -1,16 +1,3 @@
-/*const navSlie = () => {
-  const burger = document.querySelector('.burger');
-  const nav = document.document.querySelector('.nav-links');
-
-  burger.addEventListener('click, () => {
-    nav.classisList.toggle('nav-active');
-  });
-}
-
-navSlider();
-
-burger.classisList.toogle('toggle')*/
-
 const burger = document.querySelector('.burger');
 const nav = document.querySelector('.nav-links');
 const navLinks = document.querySelectorAll('.nav-links li');
@@ -41,6 +28,3 @@ const navSlide=()=>
 }
 
 navSlide();
-
-
-/* Already a member on sign-up page */

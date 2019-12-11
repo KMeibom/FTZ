@@ -22,6 +22,7 @@ main{
   min-height: 100vh;
   width: 100%;
   background-image: linear-gradient(rgb(46, 84, 137), rgba(73, 107, 186, 0.26), rgba(124, 163, 216, 0.76));
+	background-repeat:none;
 }
 
 /*navigation*/
@@ -46,31 +47,40 @@ main{
 }
 
 
-.menu-container{
+.settings-menu-container{
   display: flex;
   justify-content: center;
   margin-top: 0%;
   width: 90%;
 }
 
-.menu{
+.settings-menu{
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
   flex-direction: column;
   width: 85%;
-  margin-top: 20%;
+
   margin-left: auto;
   margin-right: auto;
+	padding:10% 0;
 }
 
-.instillinger{
+.settings{
   display: flex;
   justify-content: center;
   margin-top: 20px;
   align-items: center;
   width: 100%;
+
 }
+
+
+.settings-menu a{
+	text-decoration: none;
+}
+
+
 
 h1{
   font-size: 24px;
@@ -80,6 +90,12 @@ h1{
 h2{
 	font-size:20px;
 	font-weight:600;
+}
+
+h3{
+	font-size:13px;
+	font-weight:300;
+	letter-spacing:1.2px;
 }
 
 .linjer{
@@ -93,7 +109,6 @@ h2{
 	/*display:flex;
 	justify-content:space-between;
 	align-items:center;*/
-	min-height:8vh;
 	font-family: 'Open Sans', sans-serif;
 }
 
@@ -131,13 +146,13 @@ h2{
 		justify-content: space-around;
 	}*/
 
-  .indryk{
+  .settings-item{
    
     border-bottom: solid 1px #a2b2c9;
     width: 100%;
 	  font-size:20px;
   }
-	.indryk a {
+	.settings-item a {
 		text-decoration: none;
 		color: #FFFFFF;
 	}
@@ -178,8 +193,9 @@ ul.nav-links.nav-active{
 
 	.nav-links li{
 		margin:0px;
-		padding:2%;
+		padding:5%;
     color: #ffffff;
+		list-style:none;
 	}
 
 	.nav-links a{
@@ -189,8 +205,9 @@ ul.nav-links.nav-active{
 
 	.burger{
 		display:block;
-		padding-right:6.6vh;
+		padding:0 6.6vh 3.6vh 0;
 		overflow-y:hidden;
+		margin:30px;
 	}
 
 
@@ -198,7 +215,7 @@ ul.nav-links.nav-active{
     width: 20px;
     background-color: #ffffff;
     height: 2px;
-    margin: 5px;
+    margin:0 0 5px 0 ;
     transition: all 0.3 ease;
   }
 
@@ -206,14 +223,14 @@ ul.nav-links.nav-active{
     width: 20px;
     background-color: #ffffff;
     height: 2px;
-    margin: 5px;
+    margin:0 0 5px 0 ;
   }
 
   .line3{
     width: 20px;
     background-color: #ffffff;
     height: 2px;
-    margin: 5px;
+	margin:0 0 5px 0 ;
   }
 
 
@@ -236,20 +253,290 @@ ul.nav-links.nav-active{
 	transform:rotate(45deg) translate(-4px,-6px);
 }
 
+
+.top-items{
+	display:flex;
+		align-content: space-between;
+	justify-content:space-between; 
+}	
 	
 .search {
 		display:flex;
-	justify-content:center;
-	margin-top:0%;
-	width: 90%;
-	}
+	justify-content:flex-end;
+	align-items:flex-end;
+	width: 10%;
+	height:100%;
+	margin:30px;
+}
 	
-
-	
-.searchicon{
-		
+.search-icon{
+		background-image:url("img/search-icon.svg");
+	width:24px;
+	height: 24px;
 	}	
 	
-	
 /*navigation færdig*/
+}
+
+/*top section*/
+
+.main-section{
+	justify-content: center;
+	align-content: center;
+	display: flex;
+  	flex-direction: column;
+  	margin-left: auto;
+  	margin-right: auto;
+  	width: 100%;
+}
+
+
+
+.bil-logo{
+	background-image:url("img/bil-logo-mercedes.svg");
+	background-repeat:none;
+	width:50px;
+	height:47px;
+	justify-content: center;
+	align-content: center;
+	display: flex;
+  	margin-left: auto;
+  	margin-right: auto;
+	padding:0 0 5% 0;
+	margin-bottom:2%;
+	margin-top:-5%;
+}
+
+.bil-titel{
+	justify-content: center;
+	align-content: center;
+	display: flex;
+}
+
+.bil-model{
+	background-image:url("img/bil-model-a200.svg");
+	background-repeat:none;
+	width:80%;
+	height:220px;
+	justify-content: center;
+	align-content: center;
+	display: flex;
+  	margin-left: auto;
+  	margin-right: auto;
+}
+
+.dot-container{
+	justify-content: space-around;
+	align-content: center;
+	display: flex;
+	width:10%;
+	  	margin-left: auto;
+  	margin-right: auto;
+}
+
+.dot {
+  height: 8px;
+  width: 8px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+	margin:0 5;
+}
+
+#dot1{
+	background-color:#FFFFFF;
+}
+
+/*mid section*/
+
+.mid-section{
+		justify-content: space-around;
+	align-content: center;
+	display: flex;
+	flex-direction: row;
+	align-items:center;
+	width:85%;
+	  	margin-left: auto;
+  	margin-right: auto;
+}
+
+.advarsel-icon{
+	background-image:url("img/warning-icon.svg");
+	background-repeat:none;
+	width:30px;
+	height:30px;
+	margin-right:2%;
+}
+
+.advarsel{
+justify-content: space-between;
+	width:150px;
+	text-align:left;
+}
+
+.synsrapport{
+	justify-content: space-between;
+	width:150px;
+	text-align:right;
+}
+
+.synsrapport-icon{
+	background-image:url("img/synsrapport-icon.svg");
+	background-repeat:none;
+	width:20px;
+	height:24px;
+	margin-left:2%;
+}
+
+.warningLine-container{
+	
+}
+
+.warnings{
+	
+}
+
+/*bottom section*/
+
+
+.dot-container{
+	justify-content: space-around;
+	align-content: center;
+	display: flex;
+	width:10%;
+	  	margin-left: auto;
+  	margin-right: auto;
+}
+
+.dot {
+  height: 8px;
+  width: 8px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+	margin:0 5;
+}
+
+
+.menu{
+		justify-content: space-around;
+	align-content: center;
+	display:grid;
+	width:100%;
+	  	margin-left: auto;
+  	margin-right: auto;
+	padding:5% 5%;
+}
+
+.menuTopRow-text{
+		justify-content: space-around;
+	align-content: center;
+	display:grid;
+	width:100%;
+		margin-left: auto;
+  	margin-right: auto;
+	padding-top:85px;
+}
+
+.menuBottomRow-text{
+		justify-content: space-around;
+	align-content: center;
+	display:grid;
+	width:100%;
+		margin-left: auto;
+  	margin-right: auto;
+	padding-top:85px;
+}
+
+.menuTopRow{
+			justify-content: space-around;
+	align-content: center;
+	width:100%;
+  border-radius: 50%;
+  display: column;
+	padding-top:5%;
+}
+
+.menuBottomRow{
+				justify-content: space-around;
+	align-content: center;
+	width:100%;
+  border-radius: 50%;
+  display: column;
+	padding-top:5%;
+}
+
+.chat{
+	background-image:url("img/chat-icon.svg");
+	background-size: auto;
+	background-repeat:none;
+	  height: 95px;
+  width: 95px;
+  background-color: transparent;
+  display: inline-block;
+	border-radius: 50%;
+}
+
+.minBil{
+		background-image:url("img/minBil-icon.svg");
+	  height: 95px;
+  width: 95px;
+  background-color: transparent;
+
+  display: inline-block;
+}
+
+.vejhjalp{
+		background-image:url("img/vejhjælp-icon.svg");
+	  height: 95px;
+  width: 95px;
+  background-color: transparent;
+ 
+  display: inline-block;
+	
+}
+
+.forsikringer{
+		background-image:url("img/forsikringer-icon.svg");
+	  height: 95px;
+  width: 95px;
+  background-color: transparent;
+
+  display: inline-block;
+}
+
+.udgifter{
+		background-image:url("img/udgifter-icon.svg");
+	  height: 91px;
+  width: 91px;
+  background-color: transparent;
+
+  display: inline-block;
+}
+
+.kort{
+		background-image:url("img/kort-icon.svg");
+	  height: 95px;
+  width: 95px;
+  background-color: transparent;
+
+  display: inline-block;
+
+}
+
+footer{
+	justify-content: space-around;
+	align-content: center;
+	display: flex;
+	width:100%;
+	  	margin-left: auto;
+  	margin-right: auto;
+	height:auto;
+}
+
+.drivecleverLogo{
+	background-image:url("img/driveclever-blåLogo.svg");
+	opacity: 44%;
+	width:146px;
+	height:20px;
 }
