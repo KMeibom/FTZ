@@ -9,7 +9,7 @@ function checkmember(memberlist, mail) {
     
 	for (var i = 0; i <= memberlist.length; i++) {
         if (memberlist[i] === mail) {
-           return alert("user: " + mail +  " already exists!");
+           return alert(mail + " kører allerede smartere ;)");
         }
     }
     return alert(mail + " doesn't exist");
