@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="91" height="91" viewBox="0 0 91 91">
+  <defs>
+    <filter id="Ellipse_22" x="0" y="0" width="91" height="91" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-color="#fff" flood-opacity="0.2"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Component_4_1" data-name="Component 4 – 1" transform="translate(9 6)">
+    <g transform="matrix(1, 0, 0, 1, -9, -6)" filter="url(#Ellipse_22)">
+      <g id="Ellipse_22-2" data-name="Ellipse 22" transform="translate(9 6)" fill="none" stroke="#ededed" stroke-width="2.7">
+        <circle cx="36.5" cy="36.5" r="36.5" stroke="none"/>
+        <circle cx="36.5" cy="36.5" r="35.15" fill="none"/>
+      </g>
+    </g>
+    <path id="iconmonstr-speech-bubble-3" d="M17.289,1C8.158,1,0,7.089,0,15.418a12.7,12.7,0,0,0,2.949,8.1c.079,2.637-1.474,6.42-2.871,9.175,3.749-.677,9.078-2.173,11.495-3.654,13.307,3.237,23.006-4.906,23.006-13.626C34.579,7.044,26.365,1,17.289,1Zm-7.2,16.569a2.161,2.161,0,1,1,2.161-2.161A2.16,2.16,0,0,1,10.086,17.569Zm7.2,0a2.161,2.161,0,1,1,2.161-2.161A2.16,2.16,0,0,1,17.289,17.569Zm7.2,0a2.161,2.161,0,1,1,2.161-2.161A2.161,2.161,0,0,1,24.493,17.569Z" transform="translate(19 20)" fill="#ededed"/>
+  </g>
+</svg>

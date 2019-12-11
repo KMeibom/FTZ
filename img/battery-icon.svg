@@ -1,0 +1,11 @@
+<svg id="Component_5_1" data-name="Component 5 – 1" xmlns="http://www.w3.org/2000/svg" width="13" height="8" viewBox="0 0 13 8">
+  <g id="Path_85" data-name="Path 85" transform="translate(0 1)" fill="none">
+    <path d="M0,0H13V7H0Z" stroke="none"/>
+    <path d="M 1 1 L 1 6 L 12 6 L 12 1 L 1 1 M 0 0 L 13 0 L 13 7 L 0 7 L 0 0 Z" stroke="none" fill="#fff"/>
+  </g>
+  <rect id="Rectangle_52" data-name="Rectangle 52" width="2" height="1" transform="translate(2)" fill="#fff"/>
+  <rect id="Rectangle_53" data-name="Rectangle 53" width="3" height="1" transform="translate(8)" fill="#fff"/>
+  <line id="Line_78" data-name="Line 78" x2="2.243" transform="translate(8.3 4.289)" fill="none" stroke="#fff" stroke-width="0.7"/>
+  <line id="Line_79" data-name="Line 79" x2="2.243" transform="translate(9.422 3.167) rotate(90)" fill="none" stroke="#fff" stroke-width="0.7"/>
+  <line id="Line_77" data-name="Line 77" x2="2.243" transform="translate(2.019 4.289)" fill="none" stroke="#fff" stroke-width="0.7"/>
+</svg>
