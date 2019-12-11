@@ -25,6 +25,7 @@ main{
 	background-repeat:none;
 }
 
+
 /*navigation*/
 
 .burger{
@@ -102,6 +103,31 @@ h3{
 
 }
 
+	.logoopret{
+		justify-content: space-around;
+	align-content: center;
+	display: flex;
+	width:100%;
+	  	margin-left: auto;
+  	margin-right: auto;
+	height:auto;
+	padding-top:20%;
+}
+
+.drivecleverLogo-forside{
+		background-image:url("img/drivecleverLogo-opret.png");
+width:552px;
+	height:74px;
+	background-size:100%;
+}
+
+	
+.overskrift-opret{
+	justify-content: center;
+	align-content: center;
+	display: flex;
+	}
+
 @media screen and (max-width:1921px)
 {
 
@@ -159,6 +185,8 @@ h3{
 
 	/*end of media screen 1921*/
 }
+	
+
 
 @media screen and (max-width:768px)
 {
@@ -276,7 +304,6 @@ ul.nav-links.nav-active{
 	}	
 	
 /*navigation færdig*/
-}
 
 /*top section*/
 
@@ -539,4 +566,6 @@ footer{
 	opacity: 44%;
 	width:146px;
 	height:20px;
+}
+	
 }
