@@ -25,6 +25,119 @@ main{
 	background-repeat:none;
 }
 
+.logoopret{
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 35px;
+}
+
+.overskrift{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 70px;
+}
+
+.member {
+
+  display: flex;
+    margin-top: -1%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+
+}
+.wrapper-form{
+	display:flex;
+	margin-top:24%;
+	height:100%;
+	width:80%;
+  justify-content: center;
+  align-items: center;
+}
+
+::placeholder {
+  color: #EDEDED;
+  opacity: 1;
+}
+.input{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+align-content: center;
+	justify-content: center;
+	align-items: center;
+	border:none;
+}
+
+.button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 60px;
+	padding:5%;
+}
+
+button{
+  color:  #204480;
+  font-size: 15px;
+  font-family: 'Open Sans', sans-serif;
+  background-color: #A9D7BB;
+  border-color: #82b5be;
+  border-style: solid;
+  border-width: thin;
+  border-radius: 28px;
+  radius: 50%;
+  height: 32px;
+  position: absolute;
+  width: 30%;
+}
+
+input:focus, textarea:focus {
+	outline: none;
+}
+
+input, select, textarea{
+    color: #FFFFFF;
+    opacity: 70%;
+
+}
+
+input{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  padding-right: 30px;
+display:flex;
+	  margin-bottom: 25px;
+border:none;
+	background-color:transparent;
+
+}
+
+.mail{
+	border-bottom: 1.2px solid #FFFFFF;
+  width: 140%;
+}
+
+
+.kode{
+	border-bottom: 1.2px solid #FFFFFF;
+  width: 140%;
+}
+
+.kode2{
+	border-bottom: 1.2px solid #FFFFFF;
+  width: 140%;
+}
+
+a{
+
+  text-decoration: none;
+  color:#204480;
+}
 
 /*navigation*/
 
@@ -99,6 +212,13 @@ h3{
 	letter-spacing:1.2px;
 }
 
+h5{
+  font-size:40px;
+	font-weight:600;
+	letter-spacing:1px;
+}
+
+
 .linjer{
 
 }
@@ -121,7 +241,7 @@ width:552px;
 	background-size:100%;
 }
 
-	
+
 .overskrift-opret{
 	justify-content: center;
 	align-content: center;
@@ -185,7 +305,7 @@ width:552px;
 
 	/*end of media screen 1921*/
 }
-	
+
 
 
 @media screen and (max-width:768px)
@@ -585,5 +705,4 @@ footer{
 	width:146px;
 	height:20px;
 }
-	
 }
