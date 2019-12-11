@@ -1,7 +1,7 @@
 function checkmember(memberlist, mail) {
 	
 		var memberlist = [];
-	memberlist[0] = "test";
+	memberlist[0] = "c.s.hoepner@gmail.com";
 	memberlist[1] = "kaspermeibom@hotmail.com";
 	memberlist[2] = "avibavi@line.com";
 	
