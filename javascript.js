@@ -12,5 +12,5 @@ function checkmember(memberlist, mail) {
         }
     }
 	memberlist.push(mail);
-    return alert(mail + " doesn't exist");
+    return alert(mail + " glæd til at køre smartere ;)");
 }
