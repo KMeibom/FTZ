@@ -12,5 +12,5 @@ function checkmember(memberlist, mail) {
         }
     }
 	memberlist.push(mail);
-    return alert(mail + " glæd til at køre smartere ;)");
+    return alert(mail + " glæd dig til at køre smartere ;)");
 }
