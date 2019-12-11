@@ -50,11 +50,19 @@
 	
 	<div class="bil-titel"><h2>Mercedes Benz a200</h2></div>
 	
-	<div class="bil-model"></div>
+<div class="bil-model">
+  <div class="bil-model-wrapper" id="bil1">
+    <img class="image" src="img/bil-model-a200.png" alt="mercedes-a200" />
+  </div>
+	
+  <div class="bil-model-wrapper" id="bil2">
+    <img class="image" src="img/bil-model-a6.png" alt="audi-a6"/>
+  </div>
+</div>
 	
 	<article class="dot-container">
-		<div class="dot" id="dot1"></div>
-		<div class="dot" id="dot2"></div>
+		<div class="dot" id="dot1" onclick="swipe(event, 'left')"></div>
+		<div class="dot" id="dot2" onclick="swipe(event, 'right')"></div>
 	</article>
 	
 	<article class="mid-section">

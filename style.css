@@ -173,7 +173,7 @@ width:552px;
 	}*/
 
   .settings-item{
-
+   
     border-bottom: solid 1px #a2b2c9;
     width: 100%;
 	  font-size:20px;
@@ -285,9 +285,9 @@ ul.nav-links.nav-active{
 .top-items{
 	display:flex;
 		align-content: space-between;
-	justify-content:space-between;
-}
-
+	justify-content:space-between; 
+}	
+	
 .search {
 		display:flex;
 	justify-content:flex-end;
@@ -296,13 +296,13 @@ ul.nav-links.nav-active{
 	height:100%;
 	margin:30px;
 }
-
+	
 .search-icon{
 		background-image:url("img/search-icon.svg");
 	width:24px;
 	height: 24px;
-	}
-
+	}	
+	
 /*navigation færdig*/
 
 /*top section*/
@@ -341,16 +341,34 @@ ul.nav-links.nav-active{
 }
 
 .bil-model{
-	background-image:url("img/bil-model-a200.svg");
-	background-repeat:none;
-	width:80%;
+	width:100%;
 	height:220px;
-	justify-content: center;
+	justify-content: space-between;
 	align-content: center;
 	display: flex;
-  	margin-left: auto;
-  	margin-right: auto;
+	flex-direction: row;
 }
+	
+.bil-model-wrapper {
+  width: 100%;
+  display: inline-block;
+  text-align: center;
+}
+
+	.image{
+		padding: 0 10%;
+		
+	}	
+	
+	#bil1{
+				width:100%;
+			height:220px;
+	}
+	
+	#bil2{
+		width:100%;
+			height:220px;
+	}
 
 .dot-container{
 	justify-content: space-around;
@@ -416,11 +434,11 @@ justify-content: space-between;
 }
 
 .warningLine-container{
-
+	
 }
 
 .warnings{
-
+	
 }
 
 /*bottom section*/
@@ -518,9 +536,9 @@ justify-content: space-between;
 	  height: 95px;
   width: 95px;
   background-color: transparent;
-
+ 
   display: inline-block;
-
+	
 }
 
 .forsikringer{
@@ -567,8 +585,5 @@ footer{
 	width:146px;
 	height:20px;
 }
-<<<<<<< HEAD
 	
 }
-=======
->>>>>>> 285d458bae97debf13062ea208f8f25089e8b221
