@@ -28,3 +28,6 @@ const navSlide=()=>
 }
 
 navSlide();
+
+
+// Sign up side
