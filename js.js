@@ -48,14 +48,16 @@ var ImageIndex = 0;
   }
 
 	// Sign up page
+function checkmember() {
+
 
 	var memberlist[];
 	var i = 0;
 	var brugerinput = document.getElementsByClassName("mail").value
 	memberlist[0] = "c.hoepner@hotmail.com";
-	memberlist[1] = "kasper.meibom@hotmail.com";
+	memberlist[1] = "kaspermeibom@hotmail.com";
 	memberlist[2] = "avibavi@line.com";
-
+s
 	boolean found = false;
 	for (int i = 0; i < memberlist.length; i++) {
 	    if (memberlist[i].equals(brugerinput)) {
@@ -64,7 +66,8 @@ var ImageIndex = 0;
 	}
 
 	if (found) {
-	    System.out.println("___________");
+	alert(brugerinput + " eksisterer allerede")
 	} else {
 	    System.out.println("Username Not Found.");
 	}
+}
