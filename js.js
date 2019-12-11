@@ -41,3 +41,6 @@ const navSlide=()=>
 }
 
 navSlide();
+
+
+/* Already a member on sign-up page */
