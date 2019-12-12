@@ -47,5 +47,3 @@ var ImageIndex = 0;
       ImageIndex = ImageIndex >= 1 ? ImageIndex - 1 : 0;
     }
   }
-
-	// Sign up page
