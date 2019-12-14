@@ -1,4 +1,4 @@
-function checkmember(memberlist, mail) {
+function checkmember() {
 	
 		var memberlist = [];
 	memberlist[0] = "c.s.hoepner@gmail.com";
