@@ -4,7 +4,6 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="style.css">
-    <script src="javascript.js" type="text/javascript"></script>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&display=swap" rel="stylesheet">
 
   <title>Drive Clever</title>
@@ -14,32 +13,128 @@
   <nav>
 <ul class="nav-links">
 
-<div class="instillinger"><h1>Instillinger</h1></div>
+	<div class="settings"><h1>Instillinger</h1></div>
+  
+	<section class="settings-menu">
+	
+	<li class="settings-item"><a href="#"><h2>Skrift adgangskode</h2></a></li>
+	<li class="settings-item"><a href="#"><h2>Teknisk support</h2></a></li>
+	<li class="settings-item"><a href="#"><h2>Tilføj bil</h2></a></li>
+	<li class="settings-item"><a href="#"><h2>Sprog</h2></a></li>
+	<li class="settings-item"><a href="#"><h2>Log ud</h2></a></li>
 
-  <section class="menu">
-
-<div class="indryk"><a href="#"><h2>Skrift adgangskode</h2></a></div>
-<div class="indryk"><a href="#"><h2>Teknisk support</h2></a></div>
-<div class="indryk"><a href="#"><h2>Tilføj bil</h2></a></div>
-<div class="indryk"><a href="#"><h2>Sprog</h2></a></div>
-<div class="indryk"><a href="#"><h2>Log ud</h2></a></div>
-
-</section>
-
+		  
+  </section>
+	
 </ul>
-<div class="burger">
-  <div class="line1"></div>
-  <div class="line2"></div>
-  <div class="line3"></div>
-</div>
+<section class="top-items">	  
+	<section class="burger">
+  	<div class="line1"></div>
+  	<div class="line2"></div>
+  	<div class="line3"></div>
+	</section>
 
-<section class="search">
-	<div class="searchicon"><a href="#"></a></div>
-</section>	  
+	<section class="search">
+		<a href="#"><div class="search-icon"></div></a>
+	</section>	
+</section>
   </nav>
+	  
+	  <script src="js.js" type="text/javascript"></script>
 
-  <script src="js.js" type="text/javascript"></script>
+<section class="main-section">
+	
+	
+		<div class="bil-logo"></div>
 
+	
+	<div class="bil-titel"><h2>Mercedes Benz a200</h2></div>
+	
+<div class="bil-model">
+  <div class="bil-model-wrapper" id="bil1">
+    <img class="image" src="img/bil-model-a200.png" alt="mercedes-a200" />
+  </div>
+	
+  <div class="bil-model-wrapper" id="bil2">
+    <img class="image" src="img/bil-model-a6.png" alt="audi-a6"/>
+  </div>
+</div>
+	
+	<article class="dot-container">
+		<div class="dot" id="dot1" onclick="swipe(event, 'left')"></div>
+		<div class="dot" id="dot2" onclick="swipe(event, 'right')"></div>
+	</article>
+	
+	<article class="mid-section">
+		
+		<div class="advarsel-icon" onclick="warning()"></div>
+		<div class="advarsel"><h3>Advarsel!</h3></div>
+
+		<div class="synsrapport"><h3>Synsrapport</h3></div>
+		<div class="synsrapport-icon"></div>
+	</article>
+	
+	<article class="warningLine-container">
+		<section id="warning-section"><!-- indsæt warnings her (battery) -->
+		
+			<div class="warning-icon"></div>
+			<div class="warning-text"><h3>Batteri</h3></div>
+		
+		</section>
+			  <script src="js-warning-function.js" type="text/javascript"></script>
+	</article>
+	
+	<section class="menu">
+		
+		<article class="menuTopRow">
+			
+			<div class="chat">
+				<div class="menuTopRow-text">
+					<h3>Chat</h3>
+				</div>
+			</div>	
+			
+			<div class="minBil">
+				<div class="menuTopRow-text">
+					<h3>Min bil</h3>
+				</div>
+			</div>
+			
+			<div class="vejhjalp">
+				<div class="menuTopRow-text">
+					<h3>Vejhjælp</h3>
+				</div>
+			</div>	
+			
+		</article>
+		
+		<article class="menuBottomRow">
+	
+			<div class="forsikringer">
+				<div class="menuBottomRow-text">
+					<h3>Forsikringer</h3>
+				</div>
+			</div>
+			
+			<div class="udgifter">
+				<div class="menuBottomRow-text">
+						<h3>Udgifter</h3>
+					</div>
+			</div>
+			
+				<div class="kort">
+					<div class="menuBottomRow-text">
+						<h3>Kort</h3>
+					</div>
+				</div>
+		</article>
+	  
+	</section>
+</section>
+	  
   </body>
-
+	
+<footer>
+	<div class="drivecleverLogo"></div>
+</footer>
 </html>

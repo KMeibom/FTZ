@@ -209,7 +209,7 @@ padding-top: 2px;
 
 
 
-#Logo img{
+.Logo img{
 
   padding-top: 110px;
   width: 300px;
@@ -217,7 +217,7 @@ padding-top: 2px;
   align-items: center;
 }
 
-#logo h1{
+.Logo h1{
   margin-top: 20px;
 }
 

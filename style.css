@@ -7,11 +7,12 @@
 body{
   background-color: #0B3063;
   background-image: linear-gradient(rgb(46, 84, 137), rgba(73, 107, 186, 0.26), rgba(124, 163, 216, 0.76));
-  background-size:100vh 100vh;
+  background-size:100vh 104vh;
   background-repeat: no-repeat;
   color: #ededed;
   font-family: 'Open Sans', sans-serif;
   font-size: 15px;
+	min-height:100vh;
   }
 
 main{
@@ -22,6 +23,122 @@ main{
   min-height: 100vh;
   width: 100%;
   background-image: linear-gradient(rgb(46, 84, 137), rgba(73, 107, 186, 0.26), rgba(124, 163, 216, 0.76));
+	background-repeat:none;
+}
+
+.logoopret{
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 35px;
+}
+
+.overskrift{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 70px;
+}
+
+.member {
+
+  display: flex;
+    margin-top: -1%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+
+}
+.wrapper-form{
+	display:flex;
+	margin-top:24%;
+	height:100%;
+	width:80%;
+  justify-content: center;
+  align-items: center;
+}
+
+::placeholder {
+  color: #EDEDED;
+  opacity: 1;
+}
+.input{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+align-content: center;
+	justify-content: center;
+	align-items: center;
+	border:none;
+}
+
+.button{
+justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 100%;
+    height: auto;
+    padding-top: 20%;
+}
+
+button{
+  color:  #204480;
+  font-size: 15px;
+  font-family: 'Open Sans', sans-serif;
+  background-color: #A9D7BB;
+  border-color: #82b5be;
+  border-style: solid;
+  border-width: thin;
+  border-radius: 28px;
+  height: 32px;
+  position: absolute;
+  width: 30%;
+	margin-right:20%;
+}
+
+input:focus, textarea:focus {
+	outline: none;
+}
+
+input, select, textarea{
+    color: #FFFFFF;
+    opacity: 70%;
+
+}
+
+input{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  padding-right: 30px;
+display:flex;
+	  margin-bottom: 25px;
+border:none;
+	background-color:transparent;
+
+}
+
+.mail{
+	border-bottom: 1.2px solid #FFFFFF;
+  width: 140%;
+}
+
+
+.kode{
+	border-bottom: 1.2px solid #FFFFFF;
+  width: 140%;
+}
+
+.kode2{
+	border-bottom: 1.2px solid #FFFFFF;
+  width: 140%;
+}
+
+a{
+
+  text-decoration: none;
+  color:#204480;
 }
 
 /*navigation*/
@@ -46,31 +163,40 @@ main{
 }
 
 
-.menu-container{
+.settings-menu-container{
   display: flex;
   justify-content: center;
   margin-top: 0%;
   width: 90%;
 }
 
-.menu{
+.settings-menu{
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
   flex-direction: column;
   width: 85%;
-  margin-top: 20%;
+
   margin-left: auto;
   margin-right: auto;
+	padding:10% 0;
 }
 
-.instillinger{
+.settings{
   display: flex;
   justify-content: center;
   margin-top: 20px;
   align-items: center;
   width: 100%;
+
 }
+
+
+.settings-menu a{
+	text-decoration: none;
+}
+
+
 
 h1{
   font-size: 24px;
@@ -82,9 +208,47 @@ h2{
 	font-weight:600;
 }
 
+h3{
+	font-size:13px;
+	font-weight:300;
+	letter-spacing:1.2px;
+}
+
+h5{
+  font-size:40px;
+	font-weight:600;
+	letter-spacing:1px;
+}
+
+
 .linjer{
 
 }
+
+	.logoopret{
+		justify-content: space-around;
+	align-content: center;
+	display: flex;
+	width:100%;
+	  	margin-left: auto;
+  	margin-right: auto;
+	height:auto;
+	padding-top:20%;
+}
+
+.drivecleverLogo-forside{
+		background-image:url("img/drivecleverLogo-opret.png");
+width:552px;
+	height:74px;
+	background-size:100%;
+}
+
+
+.overskrift-opret{
+	justify-content: center;
+	align-content: center;
+	display: flex;
+	}
 
 @media screen and (max-width:1921px)
 {
@@ -93,7 +257,6 @@ h2{
 	/*display:flex;
 	justify-content:space-between;
 	align-items:center;*/
-	min-height:8vh;
 	font-family: 'Open Sans', sans-serif;
 }
 
@@ -131,19 +294,21 @@ h2{
 		justify-content: space-around;
 	}*/
 
-  .indryk{
+  .settings-item{
    
     border-bottom: solid 1px #a2b2c9;
     width: 100%;
 	  font-size:20px;
   }
-	.indryk a {
+	.settings-item a {
 		text-decoration: none;
 		color: #FFFFFF;
 	}
 
 	/*end of media screen 1921*/
 }
+
+
 
 @media screen and (max-width:768px)
 {
@@ -178,8 +343,9 @@ ul.nav-links.nav-active{
 
 	.nav-links li{
 		margin:0px;
-		padding:2%;
+		padding:5%;
     color: #ffffff;
+		list-style:none;
 	}
 
 	.nav-links a{
@@ -189,8 +355,9 @@ ul.nav-links.nav-active{
 
 	.burger{
 		display:block;
-		padding-right:6.6vh;
+		padding:0 6.6vh 3.6vh 0;
 		overflow-y:hidden;
+		margin:30px;
 	}
 
 
@@ -198,7 +365,7 @@ ul.nav-links.nav-active{
     width: 20px;
     background-color: #ffffff;
     height: 2px;
-    margin: 5px;
+    margin:0 0 5px 0 ;
     transition: all 0.3 ease;
   }
 
@@ -206,14 +373,14 @@ ul.nav-links.nav-active{
     width: 20px;
     background-color: #ffffff;
     height: 2px;
-    margin: 5px;
+    margin:0 0 5px 0 ;
   }
 
   .line3{
     width: 20px;
     background-color: #ffffff;
     height: 2px;
-    margin: 5px;
+	margin:0 0 5px 0 ;
   }
 
 
@@ -236,20 +403,343 @@ ul.nav-links.nav-active{
 	transform:rotate(45deg) translate(-4px,-6px);
 }
 
+
+.top-items{
+	display:flex;
+		align-content: space-between;
+	justify-content:space-between; 
+}	
 	
 .search {
 		display:flex;
-	justify-content:center;
-	margin-top:0%;
-	width: 90%;
-	}
+	justify-content:flex-end;
+	align-items:flex-end;
+	width: 10%;
+	height:100%;
+	margin:30px;
+}
 	
+.search-icon{
+		background-image:url("img/search-icon.svg");
+	width:23px;
+	height: 23px;
+	}	
+	
+/*navigation færdig*/
 
+/*top section*/
+
+.main-section{
+	justify-content: center;
+	align-content: center;
+	display: flex;
+  	flex-direction: column;
+  	margin-left: auto;
+  	margin-right: auto;
+  	width: 100%;
+}
+
+
+
+.bil-logo{
+	background-image:url("img/bil-logo-mercedes.svg");
+	background-repeat:none;
+	width:50px;
+	height:47px;
+	justify-content: center;
+	align-content: center;
+	display: flex;
+  	margin-left: auto;
+  	margin-right: auto;
+	padding:0 0 5% 0;
+	margin-bottom:2%;
+	margin-top:-5%;
+}
+
+.bil-titel{
+	justify-content: center;
+	align-content: center;
+	display: flex;
+}
+
+.bil-model{
+	width:100%;
+	height:220px;
+	justify-content: space-between;
+	align-content: center;
+	display: flex;
+	flex-direction: row;
+}
 	
-.searchicon{
+.bil-model-wrapper {
+  width: 100%;
+  display: inline-block;
+  text-align: center;
+}
+
+	.image{
+		padding: 0 12%;
 		
 	}	
 	
+	#bil1{
+				width:100%;
+			height:220px;
+	}
 	
-/*navigation færdig*/
+	#bil2{
+		width:100%;
+			height:220px;
+		overflow-x:hidden;
+	}
+
+.dot-container{
+	justify-content: space-around;
+	align-content: center;
+	display: flex;
+	width:10%;
+	  	margin-left: auto;
+  	margin-right: auto;
+}
+
+.dot {
+  height: 8px;
+  width: 8px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+	margin:0 5;
+}
+
+#dot1{
+	background-color:#FFFFFF;
+}
+
+/*mid section*/
+
+.mid-section{
+		justify-content: space-around;
+	align-content: center;
+	display: flex;
+	flex-direction: row;
+	align-items:center;
+	width:85%;
+	  	margin-left: auto;
+  	margin-right: auto;
+}
+
+.advarsel-icon{
+	background-image:url("img/warning-icon.svg");
+	background-repeat:none;
+	width:30px;
+	height:30px;
+	margin-right:2%;
+}
+
+.advarsel{
+justify-content: space-between;
+	width:150px;
+	text-align:left;
+}
+
+.synsrapport{
+	justify-content: space-between;
+	width:150px;
+	text-align:right;
+}
+
+.synsrapport-icon{
+	background-image:url("img/synsrapport-icon.svg");
+	background-repeat:none;
+	width:20px;
+	height:24px;
+	margin-left:2%;
+}
+
+.warningLine-container{
+	    justify-content: space-between;
+    align-content: center;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    width: 85%;
+}
+
+#warning-section{
+	    justify-content: space-around;
+    align-content: center;
+    flex-direction:row;
+    align-items: center;
+	width:25%;
+	background-color:#4587E1;
+	border-radius:28px;
+	margin-left:10%;
+	display:none;
+}
+
+.warning-icon{
+	background-image:url("img/battery-icon.svg");
+	background-repeat:none;
+	background-size: contain;
+	width:13px;
+	height:8px;
+	margin-left:10%;
+	align-items:left;
+}
+	
+.warning-text
+	{
+		display: flex;
+		width:80px;
+		align-items:flex-end;
+		justify-content: flex-end;
+		margin-right:10%;
+		
+}
+
+/*bottom section*/
+
+
+.dot-container{
+	justify-content: space-around;
+	align-content: center;
+	display: flex;
+	width:10%;
+	  	margin-left: auto;
+  	margin-right: auto;
+}
+
+.dot {
+  height: 8px;
+  width: 8px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+	margin:0 5;
+}
+
+
+.menu{
+		justify-content: space-around;
+	align-content: center;
+	display:grid;
+	width:100%;
+	  	margin-left: auto;
+  	margin-right: auto;
+	padding:5% 5%;
+}
+
+.menuTopRow-text{
+		justify-content: space-around;
+	align-content: center;
+	display:grid;
+	width:100%;
+		margin-left: auto;
+  	margin-right: auto;
+	padding-top:85px;
+}
+
+.menuBottomRow-text{
+		justify-content: space-around;
+	align-content: center;
+	display:grid;
+	width:100%;
+		margin-left: auto;
+  	margin-right: auto;
+	padding-top:85px;
+}
+
+.menuTopRow{
+			justify-content: space-around;
+	align-content: center;
+	width:100%;
+  border-radius: 50%;
+  display: column;
+	padding-top:5%;
+}
+
+.menuBottomRow{
+				justify-content: space-around;
+	align-content: center;
+	width:100%;
+  border-radius: 50%;
+  display: column;
+	padding-top:5%;
+}
+
+.chat{
+	background-image:url("img/chat-icon.svg");
+	background-size: auto;
+	background-repeat:none;
+	  height: 95px;
+  width: 95px;
+  background-color: transparent;
+  display: inline-block;
+	border-radius: 50%;
+}
+
+.minBil{
+		background-image:url("img/minBil-icon.svg");
+	  height: 95px;
+  width: 95px;
+  background-color: transparent;
+
+  display: inline-block;
+}
+
+.vejhjalp{
+		background-image:url("img/vejhjælp-icon.svg");
+	  height: 95px;
+  width: 95px;
+  background-color: transparent;
+ 
+  display: inline-block;
+	
+}
+
+.forsikringer{
+		background-image:url("img/forsikringer-icon.svg");
+	  height: 95px;
+  width: 95px;
+  background-color: transparent;
+
+  display: inline-block;
+}
+
+.udgifter{
+		background-image:url("img/udgifter-icon.svg");
+	  height: 91px;
+  width: 91px;
+  background-color: transparent;
+
+  display: inline-block;
+}
+
+.kort{
+		background-image:url("img/kort-icon.svg");
+	  height: 95px;
+  width: 95px;
+  background-color: transparent;
+
+  display: inline-block;
+
+}
+
+footer{
+	justify-content: space-around;
+	align-content: center;
+	display: flex;
+	width:100%;
+	  	margin-left: auto;
+  	margin-right: auto;
+	height:auto;
+	padding-top:2%;
+}
+
+.drivecleverLogo{
+	background-image:url("img/driveclever-blåLogo.svg");
+	opacity: 44%;
+	width:146px;
+	height:20px;
+}
 }
