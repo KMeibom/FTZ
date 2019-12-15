@@ -1,17 +1,12 @@
-var slideIn = document.querySelector('.slideIn');
-var nav = document.querySelector('.nav-links');
-var navLinks = document.querySelectorAll('.nav-links li');
+var slideIn = document.querySelector(".slideIn");
+var nav = document.querySelector(".nav-links");
 
-function navSlide()
-{
-	slideIn.addEventListener('click',()=>
-	{
+function navSlide() {
+	slideIn.addEventListener('click',()=> {
 		nav.classList.toggle('nav-active');
 		slideIn.classList.toggle('toggle');
-}	);
-	
+	}	);
 }
-
 navSlide();
 
 
