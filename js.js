@@ -2,7 +2,7 @@ var slideIn = document.querySelector('.slideIn');
 var nav = document.querySelector('.nav-links');
 var navLinks = document.querySelectorAll('.nav-links li');
 
-var navSlide=()=>
+function navSlide()
 {
 	slideIn.addEventListener('click',()=>
 	{
