@@ -3,7 +3,7 @@ var memberlist = [];
 	memberlist[0] = "c.s.hoepner@gmail.com";
 	memberlist[1] = "kaspermeibom@hotmail.com";
 	memberlist[2] = "avibavi@line.com";
-	var mail =	document.getElementById("mail").value;
+	var mail=document.getElementById("mail").value;
     
 	for (var i = 0; i <= memberlist.length; i++) {
         if (memberlist[i] == mail) {
@@ -11,5 +11,5 @@ var memberlist = [];
         }
     }
 	memberlist.push(mail);
-    return alert(mail + " glæd dig til at køre smartere ;)");
+    return alert(mail + " Du skal nu til at køre smartere! ;)");
 }
