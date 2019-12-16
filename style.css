@@ -481,7 +481,7 @@ ul.nav-links.nav-active{
   background-color: #bbb;
   border-radius: 50%;
   display: inline-block;
-	margin:0 5;
+	margin:0% 5%;
 }
 
 #dot1{
@@ -503,7 +503,6 @@ ul.nav-links.nav-active{
 
 .advarsel-icon{
 	background-image:url("img/warning-icon.svg");
-	background-repeat:none;
 	width:30px;
 	height:30px;
 	margin-right:2%;
@@ -523,7 +522,6 @@ justify-content: space-between;
 
 .synsrapport-icon{
 	background-image:url("img/synsrapport-icon.svg");
-	background-repeat:none;
 	width:20px;
 	height:24px;
 	margin-left:2%;
@@ -551,12 +549,10 @@ justify-content: space-between;
 
 .warning-icon{
 	background-image:url("img/battery-icon.svg");
-	background-repeat:none;
 	background-size: contain;
 	width:13px;
 	height:8px;
 	margin-left:10%;
-	align-items:left;
 }
 	
 .warning-text
@@ -587,7 +583,7 @@ justify-content: space-between;
   background-color: #bbb;
   border-radius: 50%;
   display: inline-block;
-	margin:0 5;
+	margin:0% 5%;
 }
 
 
@@ -625,7 +621,6 @@ justify-content: space-between;
 	align-content: center;
 	width:100%;
   border-radius: 50%;
-  display: column;
 	padding-top:5%;
 }
 
@@ -634,14 +629,12 @@ justify-content: space-between;
 	align-content: center;
 	width:100%;
   border-radius: 50%;
-  display: column;
 	padding-top:5%;
 }
 
 .chat{
 	background-image:url("img/chat-icon.svg");
 	background-size: auto;
-	background-repeat:none;
 	  height: 95px;
   width: 95px;
   background-color: transparent;
