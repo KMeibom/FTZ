@@ -199,7 +199,6 @@ ul.nav-links.nav-active{
     background-color: #ffffff;
     height: 2px;
     margin: 5px;
-    transition: all 0.3 ease;
   }
 
   .line2{
